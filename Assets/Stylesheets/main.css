@@ -25,9 +25,8 @@ body{
     background-color: black;
     opacity: 0.7;
     color: #fff;
-    overflow: hidden;
     padding: 4%;
-
+    bottom: 0;
 }
 #home-txt, #home h1{
     font-size: 1.75em;
@@ -39,6 +38,7 @@ body{
 }
 #home-img{
     height: 20vh;
+    margin: 0 auto;
 }
 #arrow-down{
     background-color: grey;
@@ -49,8 +49,11 @@ body{
 /*About*/
 #about{
     background-color: #fff;
-    opacity: 0.5;
-
+    height: 100vh;
+    padding: 1%;
+    top: 0;
+    display: none;
 }
+
 /*Folio*/
 #folio

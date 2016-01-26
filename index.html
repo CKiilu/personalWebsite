@@ -15,16 +15,24 @@
                     <p>Take the journey with me</p>
                     <p></p>
                 </div>
-                <div class="column small-2 small-centered text-center">
+                <div class="column small-12 small-centered text-center" id="home-img">
                     <p>Click to scroll down.</p>
-                    <a href="#about"><img src="Assets/Images/512/arrow-down-b.png" id="arrow-down" </a></div>
+                    <a href="#about"  onclick="toggleAbout()">
+                        <img src="Assets/Images/512/arrow-down-b.png" id="arrow-down"></a></div>
             </div>
             <div class="row" id="about">
-
+                <div id="me"></div>
+                <div id="skills"></div>
             </div>
             <div class="row" id="folio">
 
             </div>
         </div>
+           <script>
+       function toggleAbout(){
+           var about = document.getElementById('about');
+           about.style.display="block";
+       }
+     </script>
     </body>
 </html>
