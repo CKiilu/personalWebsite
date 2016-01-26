@@ -31,9 +31,19 @@
             <div class="row" id="folio">
 
             </div>
+            <div class="row" id="contact">
+                <h2>Contact</h2>
+                <p>If you wish to get in touch with me fill n the form below.</p>
+                <form id="contact-form" class="column">
+                    <input type="text" id="name" placeholder="Full Name">
+                    <input type="email" id="email" placeholder="username@example.com">
+                    <textarea placeholder="Type your message here" style="height:240px;" id="message"></textarea>
+                    <input type="submit" id="submit" class="column small-4 small-offset-4 large-2 large-offset-5 end">
+                </form>
+            </div>
         </div>
            <script>
-       function toggleAbout(){
+         function toggleAbout(){
            var about = document.getElementById('about');
            about.style.display="block";
        }
