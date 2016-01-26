@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Lobster);
 
 body{
-    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
 }
-h2{
-    font-family: 'Ubuntu', sans-serif;
+h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -17,6 +17,7 @@ body{
     background-image: url(../Images/straightroad.jpg);
     width: 100%;
     padding: 0;
+    background-attachment: fixed;
 }
 /*Home*/
 #home{
@@ -25,18 +26,30 @@ body{
     opacity: 0.7;
     color: #fff;
     overflow: hidden;
+    padding: 4%;
+
+}
+#home-txt, #home h1{
+    font-size: 1.75em;
 }
 #home-txt{
-    height: 80vh;
+    height: 67vh;
     vertical-align: middle;
     padding: 15%;
+}
+#home-img{
+    height: 20vh;
 }
 #arrow-down{
     background-color: grey;
     opacity: 0.3;
+    width: 100px;
+    height: auto;
 }
 /*About*/
 #about{
+    background-color: #fff;
+    opacity: 0.5;
 
 }
 /*Folio*/
