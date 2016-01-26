@@ -14,12 +14,21 @@ h2{
 
 /*Body content*/
 body{
-
+    background-image: url(../Images/straightroad.jpg);
 }
 /*Home*/
 #home{
     height: 100vh;
+    background-color: black;
+    opacity: 0.7
 }
+#home-txt{
+    height: 90vh;
+    vertical-align: middle;
+    color: #fff;
+    padding: 15%;
+}
+#
 /*About*/
 #about{
 
