@@ -15,20 +15,26 @@ h2{
 /*Body content*/
 body{
     background-image: url(../Images/straightroad.jpg);
+    width: 100%;
+    padding: 0;
 }
 /*Home*/
 #home{
     height: 100vh;
     background-color: black;
-    opacity: 0.7
+    opacity: 0.7;
+    color: #fff;
+    overflow: hidden;
 }
 #home-txt{
-    height: 90vh;
+    height: 80vh;
     vertical-align: middle;
-    color: #fff;
     padding: 15%;
 }
-#
+#arrow-down{
+    background-color: grey;
+    opacity: 0.3;
+}
 /*About*/
 #about{
 
