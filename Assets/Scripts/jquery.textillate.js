@@ -285,3 +285,12 @@
   };
 
 }(jQuery));
+  $(function() {
+    $('.tt').textillate({
+        in: {
+            inEffects: ['fadeInLeftBig'],
+            shuffle: true,
+        }
+    }
+    );
+})
