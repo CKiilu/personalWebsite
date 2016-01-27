@@ -1,26 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Lobster);
-
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
 }
-
 h1 {
     font-family: 'Lobster', cursive;
 }
-h2, h3, h4, h5, h6{
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-
 /*Body content*/
-body{
+
+body {
     background-image: url(../Images/straightroad.jpg);
     width: 100%;
     padding: 0;
     background-attachment: fixed;
 }
+
 /*Home*/
-#home{
+
+#home {
     height: 100vh;
     background-color: black;
     opacity: 0.7;
@@ -28,46 +32,59 @@ body{
     padding: 4%;
     bottom: 0;
 }
-#home-txt, #home h1{
+#home-txt,
+#home h1 {
     font-size: 1.75em;
 }
-#home-txt{
+#home-txt {
     height: 67vh;
     vertical-align: middle;
     padding: 15%;
 }
-#home-img{
+#home-img {
     height: 20vh;
     margin: 0 auto;
 }
-#arrow-down{
+#arrow-down {
     background-color: grey;
     opacity: 0.3;
     width: 100px;
     height: auto;
 }
+
 /*Info section*/
-#info{
+
+#info {
     display: none;
 }
+
 /*About*/
-#about{
+
+#about {
     background-color: #fff;
     padding: 1%;
     top: 0;
     height: 50vh;
 }
-#myName{
+#myName {
     display: inline-block;
     position: relative;
 }
+#scrollbar {
+    z-index: 1000;
+}
 
 /*Folio*/
-#folio{
 
+#folio {
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.7;
 }
+
 /*Contact*/
-#contact{
+
+#contact {
     background-image: url(../Images/telephone.jpg);
     background-size: 100vw 50vh;
     background-repeat: no-repeat;

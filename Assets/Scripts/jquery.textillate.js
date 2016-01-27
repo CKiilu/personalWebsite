@@ -285,10 +285,28 @@
   };
 
 }(jQuery));
-  $(function() {
+  $(function fade() {
     $('.tt').textillate({
         in: {
             inEffects: ['fadeInLeftBig'],
+            shuffle: true,
+        }
+    }
+    );
+})
+  $(function roll() {
+    $('.bout').textillate({
+        in: {
+            inEffects: ['rollIn'],
+            shuffle: true,
+        }
+    }
+    );
+})
+  $(function bounce() {
+    $('.boun').textillate({
+        in: {
+            inEffects: ['bounce'],
             shuffle: true,
         }
     }
