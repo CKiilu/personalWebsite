@@ -274,8 +274,6 @@
         },
         out: {
             effect: 'hinge',
-            delayScale: 1.5,
-            delay: 50,
             sync: false,
             reverse: false,
             shuffle: false,
@@ -290,18 +288,25 @@
     //Home main
     $(function fade() {
         $('.tt').textillate({ in : {
-                inEffects: ['fadeInLeftBig'],
+                effect: 'fadeInLeftBig',
                 shuffle: true,
             }
         });
     })
-    $(function fade() {
+    $(function roll() {
         $('.bout').textillate({ in : {
-                inEffects: ['rotateIn'],
+                effect: 'rotateIn',
                 shuffle: true,
             }
         });
     })
 
+    $(function bounce() {
+        $('.boun').textillate({ in : {
+                effect: 'bounce',
+                sequence: true,
+            }
+        });
+    })
 
 }(jQuery));
