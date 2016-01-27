@@ -46,13 +46,15 @@ body{
     width: 100px;
     height: auto;
 }
+/*Info section*/
+#info{
+    display: none;
+}
 /*About*/
 #about{
     background-color: #fff;
-    height: 100vh;
     padding: 1%;
     top: 0;
-    display: none;
 }
 #myName{
     display: inline-block;
@@ -65,8 +67,17 @@ body{
 }
 /*Contact*/
 #contact{
-    background-color: #999;
-    opacity: 0.5;
-    color: #000;
-    fon
+    background-image: url(../Images/telephone.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+#name,#email,#message{
+    background: transparent;
+    border-color: black;
+}
+#submit{
+    border: #000 solid 0.5px;
+    border-radius: 10px;
+    background: transparent;
 }
