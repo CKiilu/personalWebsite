@@ -55,6 +55,7 @@ body{
     background-color: #fff;
     padding: 1%;
     top: 0;
+    height: 50vh;
 }
 #myName{
     display: inline-block;
@@ -68,16 +69,9 @@ body{
 /*Contact*/
 #contact{
     background-image: url(../Images/telephone.jpg);
-    background: cover;
+    background-size: 100vw 50vh;
     background-repeat: no-repeat;
-    width: 100vw;
-}
-#name,#email,#message{
-    background: transparent;
-    border-color: black;
-}
-#submit{
-    border: #000 solid 0.5px;
-    border-radius: 10px;
-    background: transparent;
+    overflow: hidden;
+    height: 50vh;
+    color: #fff;
 }
